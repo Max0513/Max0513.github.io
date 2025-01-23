@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Saliford turn over analysis
-image: "../img/distribution_of_monthly_hours_average.png.jpg"
+image: "../img/distribution_of_monthly_hours_average.png"
 tags: [Python, EDA, Machine learning]
 ---
 
