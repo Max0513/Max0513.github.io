@@ -22,6 +22,15 @@ This project is meant as a demonstration of concepts.
 
 <https://public.tableau.com/app/profile/maxime.sirois/viz/Pizzeriasalesdashboards/Weeksummarydashboard>
 
+## Notable tableau features
+
+- Use of **pivot** functionnality to get a count of ingredients that where originaly given as a comma separated string of ingredients for each order.
+- **Level of detail** expressions to get previous year and current year calculations.
+- Use of imported icons for **info buttons**.
+- **Dynamic filters.**
+- Dashboard button navigation functionnality.
+
+
 ## Overview of the dashboards
 
 ### Weekly review Dashboard
@@ -65,14 +74,6 @@ The last dashboard aims at a broader view of the daily sales, giving a visual cu
 ```Hue```: Hue of the boxes go darker as the sales increase to further spot trends and help predict future sales.
 
 ```Weather```: Weather tends to influence sales so monitoring past weather can explain trends in the data. Icons on the boxes help spot days of heavy rain or snow. 
-
-## Notable tableau features
-
-- Use of **pivot** functionnality to get a count of ingredients that where originaly given as a comma separated string of ingredients for each order.
-- **Level of detail** expressions to get previous year and current year calculations.
-- Use of imported icons for **info buttons**.
-- **Dynamic filters.**
-- Dashboard button navigation functionnality.
 
 
 ## Next step
