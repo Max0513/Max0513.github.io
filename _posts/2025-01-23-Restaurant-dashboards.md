@@ -11,7 +11,7 @@ I have been in the buisiness management of a fast food restaurant for several ye
 
 This dashboard project constructed in **Tableau** aims to give a clear and efficient acces to different relevant sales metrics for a similar buisiness aiming to help decision makers.
 
-Data for this project is a mix of anonymised and modified data, data from a pizzeria dataset on kaggles.com and of weather data taken from  [](https://climate-change.canada.ca/climate-data/#/daily-climate-data.)
+Data for this project is a mix of anonymised and modified data, data from a [pizzeria dataset](https://www.kaggle.com/datasets/shilongzhuang/pizza-sales) on kaggles.com and of [weather data](https://climate-change.canada.ca/climate-data/#/daily-climate-data.) taken from climate change Canada
 
 Datasets have been modified using **python** to fit the context of this project and are in no way related to another. 
 
@@ -20,7 +20,7 @@ This project is meant as a demonstration of concepts.
 
 *Link to the dashboard on tableau public*:
 
-[](https://public.tableau.com/app/profile/maxime.sirois/viz/Pizzeriasalesdashboards/Weeksummarydashboard)
+<https://public.tableau.com/app/profile/maxime.sirois/viz/Pizzeriasalesdashboards/Weeksummarydashboard>
 
 ## Overview of the dashboards
 
