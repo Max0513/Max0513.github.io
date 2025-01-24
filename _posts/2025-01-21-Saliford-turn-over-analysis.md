@@ -43,7 +43,7 @@ Data exploration revealed valuable insights about Saliford's work force:
 
  <p align="center">
   
-![](../img/distribution_of_monthly_hours_average.png" width=49% height=40%) ![](../img/monthly_hours_per_project.png" width=49% height=40%)
+![](../img/distribution_of_monthly_hours_average.png) { width=49% } ![](../img/monthly_hours_per_project.png) { width=60% }
 
 </p>
 
