@@ -205,9 +205,9 @@ In a tree based model, gini importance more or less refers to the degree to whic
 
 ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
 
-│                         the creator's initials, and a short `-` delimited description, e.g.
+│                         the creator's initials, and a short '-' delimited description, e.g.
 
-│                         `1.0-jqp-initial-data-exploration`
+│                         '1.0-jqp-initial-data-exploration'
 
 │
 
