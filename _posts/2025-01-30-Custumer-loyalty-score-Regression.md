@@ -440,7 +440,7 @@ This creates the below plot, which shows us that the highest cross-validated acc
 
 <br>
 
-![alt text](/img/posts/lin-reg-feature-selection-plot.png "Linear Regression Feature Selection Plot")
+![alt text](../img/abc_groc/lin-reg-feature-selection-plot.png "Linear Regression Feature Selection Plot")
 
 <br>
 
@@ -844,7 +844,7 @@ That code gives us the below plot - which visualises the results!
 
 <br>
 
-![alt text](/img/posts/regression-tree-max-depth-plot.png "Decision Tree Max Depth Plot")
+![alt text](../img/abc_groc/regression-tree-max-depth-plot.png "Decision Tree Max Depth Plot")
 
 <br>
 
@@ -879,7 +879,7 @@ That code gives us the below plot:
 
 <br>
 
-![alt text](/img/posts/regression-tree-nodes-plot.png "Decision Tree Max Depth Plot")
+![alt text](../img/abc_groc/regression-tree-nodes-plot.png "Decision Tree Max Depth Plot")
 
 <br>
 
@@ -1167,13 +1167,13 @@ That code gives us the below plots - the first being for *Feature Importance* an
 
 <br>
 
-![alt text](/img/posts/rf-regression-feature-importance.png "Random Forest Feature Importance Plot")
+![alt text](../img/abc_groc/rf-regression-feature-importance.png "Random Forest Feature Importance Plot")
 
 <br>
 
 <br>
 
-![alt text](/img/posts/rf-regression-permutation-importance.png "Random Forest Permutation Importance Plot")
+![alt text](../img/abc_groc/rf-regression-permutation-importance.png "Random Forest Permutation Importance Plot")
 
 <br>
 
