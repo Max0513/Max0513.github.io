@@ -43,7 +43,7 @@ Data exploration revealed valuable insights about Saliford's work force:
 
  <p align="center">
   
-![](../img/distribution_of_monthly_hours_average.png) ![](../img/monthly_hours_per_project.png)
+![](../img/posts/distribution_of_monthly_hours_average.png) ![](../img/posts/monthly_hours_per_project.png)
 
 </p>
 
@@ -63,7 +63,7 @@ Data exploration revealed valuable insights about Saliford's work force:
 
 *The chart below shows **percent of departure** by departement.*
 
-![](../img/departure_by_department.png)
+![](../img/posts/departure_by_department.png)
 
 
 
@@ -78,7 +78,7 @@ Data exploration revealed valuable insights about Saliford's work force:
 >Insight 4 : Aiming for 3 to 5 projects per employee could help lower departures.
 
 
-![](../img/table_departure_per_years.png)
+![](../img/posts/table_departure_per_years.png)
 
 - It is worth noting that as stated before, the **time spent working on project** seems a more likely indicator that the **number of project**.
 
@@ -91,7 +91,7 @@ Data exploration revealed valuable insights about Saliford's work force:
 
 <p align="center">
 
- ![](../img/table_satisfaction_by_year.png) ![](../img/satisfaction_per_years_at_company.png)
+ ![](../img/posts/table_satisfaction_by_year.png) ![](../img/posts/satisfaction_per_years_at_company.png)
 
 </p>
 
@@ -100,14 +100,14 @@ Data exploration revealed valuable insights about Saliford's work force:
 
 *Chart below shows **departures** tend to follow the trend in **satisfaction levels** drop. `Years 4 and 5 have the highest turnover rates`.*
 
-![](../img/leave_per_years_at_company.png)
+![](../img/posts/leave_per_years_at_company.png)
 
 
 >Insight 6 : We can speculate on possible reasons for leaving using data from scatter chart.
 
 *Scatter chart below shows 3 distinct areas of departures:*
 
-![](../img/scatter_plot_satisfaction_vs_hours.png)
+![](../img/posts/scatter_plot_satisfaction_vs_hours.png)
 
 - *High work hours, low satisfaction*: Most likely left from **burn out**.
 - *High work hours, high satisfaction*: Most likely left **for higher paid job**.
@@ -128,13 +128,13 @@ The chosen model is the `Tree based machine learning model`.
 
 *A model with the following parameters and scores was selected for use, selecting the f1 score as the best predictor score.*
 
-![](../img/model_results_table.png)
+![](../img/posts/model_results_table.png)
 
 Using 3598 data point *(About 30% of the data)* as test_data, we could predict departure with an `f1 score of about 94%`.
 
 *The following **Confusion matrix** show the repartition of the 3598 predicted data points*
 
-![](../img/confusion_matrix.png)
+![](../img/posts/confusion_matrix.png)
 
 - `Yellow` top/left box shows retained employees that where **correctly predicted** as such.
 - `Light Purple` bottom/right box shows departed employees that were **correctly identified**.
@@ -146,7 +146,7 @@ In a tree based model, gini importance more or less refers to the degree to whic
 
 *The graph below shows metrics graphed by gini importance*.
 
-![](../img/gini_importance.png)
+![](../img/posts/gini_importance.png)
 
 - Once again we see another example of the effect of satisfaction level over the turn over rate.
 
