@@ -10,7 +10,7 @@ tags: [Python, EDA, Machine learning]
     - [Process](#overview-process)
     - [Summary of EDA](#overview-eda)
     - [Buisness Takeaways](#overview-takeaway)
-- [01. Presentation of the Model](#concept-model)
+- [01. Presentation of the Model](#overview-model)
     - [Model Score](#overview-score)
     - [Model Results](#overview-results)
 - [02. Chalenges and what I would do differently](#overview-chalenges)
@@ -30,7 +30,11 @@ This project is a fictive analysis based on data provided by Kaggles.com, origin
 
 The mandate is to generate insight on the high turnover rate of Saliford Motor based on a company survey containing 11991 non-null, non-duplicated entries figuring 10 columns of data each. 
 
+<br>
+
 `The project resulted on valuable insights for the stakeholders to reflect upon as well as in a Tree based classification model with a prediction f1 score of about 94%.`
+
+<br>
 
 View full project: [Github link](https://github.com/Max0513/Turn-over-analysis---Saliford-)
 
@@ -90,6 +94,8 @@ Data exploration revealed valuable insights about Saliford's work force:
 <br>
 
 >Insight 2 : three departments stand out from the rest and would require further investigation.
+
+<br>
 
 *The chart below shows **percent of departure** by departement.*
 
@@ -165,11 +171,11 @@ The chosen model is the `Tree based machine learning model`.
 ## Model score  <a name="overview-score"></a>
 
 
-*A model with the following parameters and scores was selected for use, selecting the f1 score as the best predictor score.*
+*A model with the following parameters and scores was selected for use, selecting the **f1 score** as the best predictor score.*
 
 ![alt text](/img/posts/model_results_table.png)
 
-Using 3598 data point *(About 30% of the data)* as test_data, we could predict departure with an `f1 score of about 94%`.
+Using 3598 data point *(About 30% of the data)* as test data, we could predict departure with an `f1 score of about 94%`.
 
 <br>
 
@@ -218,7 +224,7 @@ In a tree based model, gini importance more or less refers to the degree to whic
 
 <br>
 
->Construct a logistic regression model to compare for better prediction score with the tree model.
+>Construct a logistic regression model and random forest to compare for better prediction score with the tree model.
 
 <br>
 
