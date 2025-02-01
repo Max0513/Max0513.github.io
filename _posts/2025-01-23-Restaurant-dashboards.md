@@ -30,6 +30,12 @@ This dashboard project constructed in **Tableau** aims to give a clear and effic
 
 <br>
 
+*Link to the dashboard on tableau public*:
+
+<https://public.tableau.com/app/profile/maxime.sirois/viz/Pizzeriasalesdashboards/Weeksummarydashboard>
+
+<br>
+
 ## Data <a name="overview-data"></a>
 
 <br>
@@ -43,9 +49,7 @@ This project is meant as a demonstration of concepts.
 
 <br>
 
-*Link to the dashboard on tableau public*:
 
-<https://public.tableau.com/app/profile/maxime.sirois/viz/Pizzeriasalesdashboards/Weeksummarydashboard>
 
 <br>
 
@@ -97,7 +101,7 @@ Top right filters select a week of interest. Selecting a day of week then looks 
 
 <br>
 
-### Calendar Dashboard <a name="overview-calendar"></a>
+## Calendar Dashboard <a name="overview-calendar"></a>
 
 
 
