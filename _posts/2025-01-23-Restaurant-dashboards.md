@@ -37,7 +37,7 @@ This project is meant as a demonstration of concepts.
 
 </p align="center">
 
-![](../img/Weekly_dash.png)
+![](../img/posts/Weekly_dash.png)
 
 </p>
 
@@ -53,7 +53,7 @@ The first dashboard is meant as a weekly summary of the previous week.
 
 <p align="center">
 
-![image](../img/Detail_dash.png)
+![image](../img/posts/Detail_dash.png)
 
 </p>
 
@@ -65,7 +65,7 @@ Top right filters select a week of interest. Selecting a day of week then looks 
 
 <p align="center">
 
-![image](../img/Calendar_dash.png)
+![image](../img/posts/Calendar_dash.png)
 
 </p>
 
