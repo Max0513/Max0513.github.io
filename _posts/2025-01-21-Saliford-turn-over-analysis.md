@@ -5,7 +5,27 @@ image: "../img/distribution_of_monthly_hours_average.png"
 tags: [Python, EDA, Machine learning]
 ---
 
-# Project summary
+- [00. Project summary](#overview-summary)
+    - [Context](#overview-context)
+    - [Process](#overview-process)
+    - [Summary of EDA](#overview-eda)
+    - [Buisness Takeaways](#overview-takeaway)
+- [01. Presentation of the Model](#concept-model)
+    - [Model Score](#overview-score)
+    - [Model Results](#overview-results)
+- [02. Chalenges and what I would do differently](#overview-chalenges)
+- [03. Next step](#overview-next)
+- [04. Folder Organisation](#overview-organisation)
+
+
+
+
+# Project summary  <a name="overview-summary"></a>
+
+## Context  <a name="overview-context"></a>
+
+<br>
+
 This project is a fictive analysis based on data provided by Kaggles.com, originating from the google career certificate for data analysis.
 
 The mandate is to generate insight on the high turnover rate of Saliford Motor based on a company survey containing 11991 non-null, non-duplicated entries figuring 10 columns of data each. 
@@ -14,19 +34,25 @@ The mandate is to generate insight on the high turnover rate of Saliford Motor b
 
 View full project: [Github link](https://github.com/Max0513/Turn-over-analysis---Saliford-)
 
+<br>
+
 *Notes*: 
 
 - View data dictionary in references folder for more information on the different metrics used in the analysis.
 
 - A folder structure template is also available at the end of this readme.
 
-## Process
+<br>
+
+## Process  <a name="overview-process"></a>
 
 An initial EDA using `python` revealed key insights as to where company leadership could further the investigation in hopes to reveal precise causes of departure.
 
 A prediction model was then computed to help screen employees for potential risk of leaving Saliford, based on different metrics collected by the company.
 
-## Summary of EDA
+<br>
+
+## Summary of EDA  <a name="overview-eda"></a>
 
 - Satisfaction is the greater influencer in the outcome variable.
 - High work hours (Above 220 hours a month) increase the risk of departure.
@@ -34,9 +60,13 @@ A prediction model was then computed to help screen employees for potential risk
 - 3 to 5 project count looks to be ideal for retention.
 - Years 4 and 5 need further investigation over the satisfaction level decrease in the work force.
 
-## Business takeaways 
+<br>
+
+## Business takeaways   <a name="overview-takeaway"></a>
 
 Data exploration revealed valuable insights about Saliford's work force:
+
+<br>
 
 *Following charts show how the **Monthly hours** worked by Saliford's employees relate to their **tenure**.*
 
@@ -46,7 +76,7 @@ Data exploration revealed valuable insights about Saliford's work force:
 ![alt text](/img/posts/distribution_of_monthly_hours_average.png) ![alt text](/img/posts/monthly_hours_per_project.png)
 
 
-
+<br>
 
 >Insight 1 : Burn out looks to be a significant factor in departures
 
@@ -57,7 +87,7 @@ Data exploration revealed valuable insights about Saliford's work force:
 - Regardless of number of projects assigned, departures seem to be correlated to the time required by those project rather than to the projects themselves.
 
 
-
+<br>
 
 >Insight 2 : three departments stand out from the rest and would require further investigation.
 
@@ -65,7 +95,7 @@ Data exploration revealed valuable insights about Saliford's work force:
 
 ![alt text](/img/posts/departure_by_department.png)
 
-
+<br>
 
 >Insight 3 : The promotions system does not look ideal for retention.
 
@@ -74,6 +104,7 @@ Data exploration revealed valuable insights about Saliford's work force:
 - Implementing a structure with more echelon could be a consideration to add a sense of progression in the work force.
 - The `number of promotions` do not appear related to the **number of hours worked**, **the number of project participated in** nor to the **last evaluation of the worker**. They do however, appear to be correlated to their **satisfaction levels**. *(View EDA for further details)*
 
+<br>
 
 >Insight 4 : Aiming for 3 to 5 projects per employee could help lower departures.
 
@@ -84,6 +115,7 @@ Data exploration revealed valuable insights about Saliford's work force:
 
 - Increasing project number does however correlate to an increase in monthly hours worked.
 
+<br>
 
 >Insight 5 : Satisfaction levels are dipping in the four year category.
 
@@ -98,10 +130,13 @@ Data exploration revealed valuable insights about Saliford's work force:
 - Regardless of departure, `satisfaction levels drop at the 4 years employment mark`.
 - Satisfaction of departed personnel follows a downward trend until year 5 and then picks back up at year 5, suggesting that those that leave for satisfaction reasons might mostly do so by year 4. Suggesting departures in year 5 and 6 might be due to other reasons.
 
+<br>
+
 *Chart below shows **departures** tend to follow the trend in **satisfaction levels** drop. `Years 4 and 5 have the highest turnover rates`.*
 
 ![alt text](/img/posts/leave_per_years_at_company.png)
 
+<br>
 
 >Insight 6 : We can speculate on possible reasons for leaving using data from scatter chart.
 
@@ -113,7 +148,9 @@ Data exploration revealed valuable insights about Saliford's work force:
 - *High work hours, high satisfaction*: Most likely left **for higher paid job**.
 - *Low work hours, low satisfaction*: Most likely fired for **low performance**. 
 
-## Presentation of the  model
+<br>
+
+# Presentation of the  model  <a name="overview-model"></a>
 
 The chosen model is the `Tree based machine learning model`.
 
@@ -123,7 +160,9 @@ The chosen model is the `Tree based machine learning model`.
 
 - Logistic regression fits requirements, but it seems the tree model could add valuable insights to stakeholder by studying the branches, it then seems like a good first choice in a world where making both and comparing would require too much time.
 
-### Model score
+<br>
+
+## Model score  <a name="overview-score"></a>
 
 
 *A model with the following parameters and scores was selected for use, selecting the f1 score as the best predictor score.*
@@ -131,6 +170,8 @@ The chosen model is the `Tree based machine learning model`.
 ![alt text](/img/posts/model_results_table.png)
 
 Using 3598 data point *(About 30% of the data)* as test_data, we could predict departure with an `f1 score of about 94%`.
+
+<br>
 
 *The following **Confusion matrix** show the repartition of the 3598 predicted data points*
 
@@ -140,9 +181,13 @@ Using 3598 data point *(About 30% of the data)* as test_data, we could predict d
 - `Light Purple` bottom/right box shows departed employees that were **correctly identified**.
 - `Bright Purple` Boxes show **incorrectly identified** data. 
 
-### Model results
+<br>
+
+## Model results <a name="overview-results"></a>
 
 In a tree based model, gini importance more or less refers to the degree to which the metric influences the classification of the model.
+
+<br>
 
 *The graph below shows metrics graphed by gini importance*.
 
@@ -150,17 +195,20 @@ In a tree based model, gini importance more or less refers to the degree to whic
 
 - Once again we see another example of the effect of satisfaction level over the turn over rate.
 
+<br>
 
-## Challenges and what I would do differently
+# Challenges and what I would do differently <a name="overview-chalenges"></a>
 
 - I had to figure out a clear organization method to present the project. I settled on the cookiecutter data template that I adapted to my needs
 - I lost a day of work due to forgetting to commit progress, had to learn the hard way to always backup and update files.
 
-## Next steps for the project
+<br>
+
+# Next steps for the project <a name="overview-next"></a>
 
 >Deploy the model on Streamlit for ease of access.
 
-
+<br>
 
 >Investigate the three areas from the scatter chart further .
 
@@ -168,8 +216,11 @@ In a tree based model, gini importance more or less refers to the degree to whic
 - Investigate salary and promotion metrics for employees between 0.75 and 1 satisfaction_levels that also fit the 225 hours and more category to confirm hypothesis about the group leaving for a higher paid job due to lack of advancement.
 - Run EDA over the new data frames created by the filtering of the three target zones to see if they behave differently.
 
+<br>
+
 >Construct a logistic regression model to compare for better prediction score with the tree model.
 
+<br>
 
 > Get access to higher quality data.
 
@@ -180,11 +231,15 @@ In a tree based model, gini importance more or less refers to the degree to whic
 - distance from home could had valuable insights to the data.
 - salary column could have a higher level of detail for more control, there is no way to know what a 'High' salary is currently.
 
+<br>
+
 > Generate dashboards for management to better track important metrics.
 
 - Machine learning models can be a great tool, but it is an imperfect tool. Management must be equipped with good data visualisation tools to add human insight which is as much if not more valuable to solving problems.
 
-## Project Organization
+<br>
+
+# Folder Organization <a name="overview-organisation"></a>
 
 
 ├── LICENSE            <- Open-source license if one is chosen
