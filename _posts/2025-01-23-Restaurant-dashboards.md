@@ -35,11 +35,11 @@ This project is meant as a demonstration of concepts.
 
 ### Weekly review Dashboard
 
-</p align="center">
 
-![](/img/posts/Weekly_dash.png)
 
-</p>
+![alt text](/img/posts/Weekly_dash.png)
+
+
 
 The first dashboard is meant as a weekly summary of the previous week.
 
@@ -51,11 +51,11 @@ The first dashboard is meant as a weekly summary of the previous week.
 
 ### Detailed view Dashboard
 
-<p align="center">
 
-![image](/img/posts/Detail_dash.png)
 
-</p>
+![alt text](/img/posts/Detail_dash.png)
+
+
 
 The main element of this dashboard is a table of sales, filtered by the half hour. It's main use is as a small database of sales meant to help decision making regarding staff to be scheduled. Cost of staff is a main concern in the fast food industry. Predicting daily sales as well as periods of affluence can result in major cost savings.
 
@@ -63,11 +63,11 @@ Top right filters select a week of interest. Selecting a day of week then looks 
 
 ### Calendar Dashboard
 
-<p align="center">
 
-![image](/img/posts/Calendar_dash.png)
 
-</p>
+![alt text](/img/posts/Calendar_dash.png)
+
+
 
 The last dashboard aims at a broader view of the daily sales, giving a visual cue as to where the hot spots tend to be.
 
