@@ -69,7 +69,7 @@ This project is meant as a demonstration of concepts.
 
 # Overview of the dashboards <a name="overview-actions"></a>
 
-## Weekly review Dashboard <a name="overview-weekly"></a>
+## **Weekly** review Dashboard <a name="overview-weekly"></a>
 
 
 
@@ -87,7 +87,7 @@ The first dashboard is meant as a weekly summary of the previous week.
 
 <br>
 
-## Detailed view Dashboard <a name="overview-details"></a>
+## **Detailed** view Dashboard <a name="overview-details"></a>
 
 
 
@@ -101,7 +101,7 @@ Top right filters select a week of interest. Selecting a day of week then looks 
 
 <br>
 
-## Calendar Dashboard <a name="overview-calendar"></a>
+## **Calendar** Dashboard <a name="overview-calendar"></a>
 
 
 
@@ -117,6 +117,6 @@ The last dashboard aims at a broader view of the daily sales, giving a visual cu
 
 <br>
 
-## Next step <a name="overview-next"></a>
+# Next step <a name="overview-next"></a>
 
 - Adding an HR dashboard
