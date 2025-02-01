@@ -9,11 +9,11 @@ tags: [Tableau]
     - [Context](#overview-context)
     - [Data](#overview-data)
     - [Notable tableau features](#overview-features)
-- [01. Dashboards overview](#concept-overview)
+- [01. Dashboard overview](#concept-overview)
     - [Weekly dashboard](#overview-weekly)
     - [Detail dashboard](#overview-details)
     - [Calendar dashboard](#overview-calendar)
-- [02. Next Step](#data-next)
+- [02. Next Step](#overview-next)
 
 <br>
 
@@ -27,6 +27,8 @@ tags: [Tableau]
 I have been in the buisiness management of a fast food restaurant for several years now and I have often felt like I was missing a clear portrait of several key metrics that could influence decisions and therefore limit wasted time and money.
 
 This dashboard project constructed in **Tableau** aims to give a clear and efficient acces to different relevant sales metrics for a similar buisiness aiming to help decision makers.
+
+<br>
 
 ## Data <a name="overview-data"></a>
 
@@ -45,6 +47,8 @@ This project is meant as a demonstration of concepts.
 
 <https://public.tableau.com/app/profile/maxime.sirois/viz/Pizzeriasalesdashboards/Weeksummarydashboard>
 
+<br>
+
 ## Notable tableau features <a name="overview-features"></a>
 
 <br>
@@ -55,10 +59,13 @@ This project is meant as a demonstration of concepts.
 - **Dynamic filters.**
 - Dashboard button navigation functionnality.
 
+<br>
 
-## Overview of the dashboards <a name="overview-actions"></a>
+<br>
 
-### Weekly review Dashboard <a name="overview-weekly"></a>
+# Overview of the dashboards <a name="overview-actions"></a>
+
+## Weekly review Dashboard <a name="overview-weekly"></a>
 
 
 
@@ -74,7 +81,9 @@ The first dashboard is meant as a weekly summary of the previous week.
 
 - The last element of the dashboard is a collection of every ingredient orders from the last week. Spotting trends in ingredient order can greatly help in the management of inventory.
 
-### Detailed view Dashboard <a name="overview-details"></a>
+<br>
+
+## Detailed view Dashboard <a name="overview-details"></a>
 
 
 
