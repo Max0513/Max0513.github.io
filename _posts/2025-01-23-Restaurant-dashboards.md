@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Restaurant dashboard analysis
+title: An Overview of Sales Using Tableau
 image: "../img/Weekly_dash.png"
 tags: [Tableau]
 ---
