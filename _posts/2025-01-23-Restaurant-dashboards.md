@@ -5,6 +5,8 @@ image: "../img/Weekly_dash.png"
 tags: [Tableau]
 ---
 
+In this project I create a Tableau Dashboard for stakeholders to analyse sales from a pizza restaurant to help make decisions that will impact costs.
+
 - [00. Project summary](#overview-summary)
     - [Context](#overview-context)
     - [Data](#overview-data)
