@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An Overview of Sales Using Tableau
-image: "../img/Weekly_dash.png"
+image: "/img/posts/kpis.jpg"
 tags: [Tableau]
 ---
 
