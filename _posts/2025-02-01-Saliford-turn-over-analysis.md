@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Analysis of Work Force Turn Over Using Python
-image: "/img/posts/distribution_of_monthly_hours_average.png"
+image: "../img/posts/distribution_of_monthly_hours_average.png"
 tags: [Python, EDA, Machine learning]
 ---
 
