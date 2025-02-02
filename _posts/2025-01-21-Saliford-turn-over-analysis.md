@@ -114,8 +114,16 @@ Data exploration revealed valuable insights about Saliford's work force:
 
 >Insight 4 : Aiming for 3 to 5 projects per employee could help lower departures.
 
+| **Project Number** | **Count_of_departure** | **Percent_of_departure** |
+|---|---|---|
+| 3 | 3520 | 1 % |
+| 4 | 3685 | 6 % | 
+| 5 | 2233 | 15 % | 
+| 6 | 826 | 45 % | 
+| 2 | 1582 | 54 % |
+| 7 | 145 | 100 % |
 
-![alt text](/img/posts/table_departure_per_years.png)
+
 
 - It is worth noting that as stated before, the **time spent working on project** seems a more likely indicator that the **number of project**.
 
@@ -127,11 +135,22 @@ Data exploration revealed valuable insights about Saliford's work force:
 
  **50%** of the company reports a **satisfaction level above 0.66** with **37% at or above 0.75** which is not bad but `levels drop around the 4 years mark`.
 
-<p align="center">
+| **Years_at_Company** | **Average_Satisfaction** |
+|---|---|
+| 2 | 0.70 | 
+| 3 | 0.65 | 
+| 4 | 0.52 | 
+| 5 | 0.58 | 
+| 6 | 0.57 | 
+| 7 | 0.64 | 
+| 8 | 0.67 | 
+| 10 | 0.66 | 
 
- ![alt text](/img/posts/table_satisfaction_by_year.png) ![alt text](/img/posts/satisfaction_per_years_at_company.png)
+<br>
 
-</p>
+![alt text](/img/posts/satisfaction_per_years_at_company.png)
+
+
 
 - Regardless of departure, `satisfaction levels drop at the 4 years employment mark`.
 - Satisfaction of departed personnel follows a downward trend until year 5 and then picks back up at year 5, suggesting that those that leave for satisfaction reasons might mostly do so by year 4. Suggesting departures in year 5 and 6 might be due to other reasons.
@@ -145,6 +164,8 @@ Data exploration revealed valuable insights about Saliford's work force:
 <br>
 
 >Insight 6 : We can speculate on possible reasons for leaving using data from scatter chart.
+
+<br>
 
 *Scatter chart below shows 3 distinct areas of departures:*
 
