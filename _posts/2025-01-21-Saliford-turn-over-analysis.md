@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Saliford turn over analysis
+title: Analysis of Work Force Turn Over Using Python
 image: "../img/distribution_of_monthly_hours_average.png"
 tags: [Python, EDA, Machine learning]
 ---
