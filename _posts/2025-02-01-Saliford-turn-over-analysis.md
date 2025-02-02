@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Analysis of Work Force Turn Over Using Python
-image: "../img/distribution_of_monthly_hours_average.png"
+image: "/img/posts/distribution_of_monthly_hours_average.png"
 tags: [Python, EDA, Machine learning]
 ---
+
+In this project, Saliford Motors wants a machine learning algorithm to help them scan for possible departures in their work force from data they collected from employees flagged for having left the work force or not.
 
 - [00. Project summary](#overview-summary)
     - [Context](#overview-context)
