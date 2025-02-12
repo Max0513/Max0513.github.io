@@ -9,7 +9,7 @@ plugins:
 #-------------------------------
 # General Site Settings
 title: Maxime Sirois
-description: "Hello, I'm Max and I'm passionate about finding solution to complex problems.\n Data has a lot of hidden gem and I love digging through the rubble and I specially love finding the diamond hidden in the rough.\n Please visit my Github & LinkedIn pages and download my Resume by using the links below!"
+description: "Hello, I'm Max and I'm passionate about finding solution to complex problems.\n Data has a lot of hidden gem and I love digging through the rubble, specially when I find the diamond hidden in the rough.\n Please visit my Github & LinkedIn pages and download my Resume by using the links below!"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
