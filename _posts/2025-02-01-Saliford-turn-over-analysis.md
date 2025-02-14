@@ -28,9 +28,7 @@ In this project, Saliford Motors wants a machine learning algorithm to help them
 
 <br>
 
-This project is a fictive analysis based on data provided by Kaggles.com, originating from the google career certificate for data analysis.
-
-The mandate is to generate insight on the high turnover rate of Saliford Motor based on a company survey containing 11991 non-null, non-duplicated entries figuring 10 columns of data each. 
+ Saliford Motors is losing employees at a high rate, so they ask for a machine learning model that could predict turnover, giving them an opportunity for action in preventing the departure. 
 
 <br>
 
@@ -38,7 +36,7 @@ The mandate is to generate insight on the high turnover rate of Saliford Motor b
 
 <br>
 
-View full project: [Github link](https://github.com/Max0513/Turn-over-analysis---Saliford-)
+View Full GitHub Repository: [Github link](https://github.com/Max0513/Turn-over-analysis---Saliford-)
 
 <br>
 
