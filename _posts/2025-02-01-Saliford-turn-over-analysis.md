@@ -20,6 +20,7 @@ Saliford Motors has noticed a high turnover rate from their work force. They ask
 
 
 
+___
 
 # Project summary  <a name="overview-summary"></a>
 
@@ -72,6 +73,8 @@ Full GitHub Repository: [Github link](https://github.com/Max0513/Turn-over-analy
 - Years 4 and 5 need further investigation over the satisfaction level decrease in the work force.
 
 <br>
+
+___
 
 # Insight Deep Dive   <a name="overview-executive"></a>
 
@@ -187,6 +190,8 @@ It is worth noting that as stated before, the **time spent working on project** 
 
 <br>
 
+___
+
 # Presentation of the  model  <a name="overview-model"></a>
 
 The chosen model is the `Tree based machine learning model`.
@@ -239,6 +244,8 @@ In a tree based model, gini impurity represents to the probability of misclassif
 The ML model also points to satisfaction levels as the first concern regarding prediction of turnovers. Investigating what exactly is affecting satisfaction levels should be viewed as a priority. 
 
 <br>
+
+___
 
 # Challenges and what I would do differently <a name="overview-chalenges"></a>
 
