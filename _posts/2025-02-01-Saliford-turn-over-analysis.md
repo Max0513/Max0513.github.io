@@ -18,7 +18,9 @@ Saliford Motors has noticed a high turnover rate from their work force. They ask
 - [03. Chalenges and what I would do differently](#overview-chalenges)
 - [04. Folder Organisation](#overview-organisation)
 
+<br>
 
+<br>
 
 ___
 
@@ -73,6 +75,8 @@ Full GitHub Repository: [Github link](https://github.com/Max0513/Turn-over-analy
 - Years 4 and 5 need further investigation over the satisfaction level decrease in the work force.
 
 <br>
+
+<br> 
 
 ___
 
@@ -190,6 +194,8 @@ It is worth noting that as stated before, the **time spent working on project** 
 
 <br>
 
+<br>
+
 ___
 
 # Presentation of the  model  <a name="overview-model"></a>
@@ -245,6 +251,8 @@ The ML model also points to satisfaction levels as the first concern regarding p
 
 <br>
 
+<br>
+
 ___
 
 # Challenges and what I would do differently <a name="overview-chalenges"></a>
@@ -280,6 +288,10 @@ Segmenting the data by department and running a statistical analysis on dimensio
 - Machine learning models can be a great tool, but it is an imperfect tool. Management must be equipped with good data visualisation tools to add human insight which is as much if not more valuable to solving business problems.
 
 <br>
+
+<br>
+
+___
 
 # Folder Organization <a name="overview-organisation"></a>
 
