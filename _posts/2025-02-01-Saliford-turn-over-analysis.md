@@ -207,8 +207,11 @@ The chosen model is the `Tree based machine learning model`.
 ![alt text](/img/posts/model_results_table.png)
 
 98% **Accuracy**: Represents the number of correct predictions out of the total number of predictions.
+
 97% **Precision**: Tells us that out of the predicted departures, 97% were correct.
+
 92% **Recall**: Tells us that out of the actual departures, 92% were correctly identified.
+
 94% **F1**: is the harmonic mean of precision and recall, giving us a well balanced metric for imbalanced classifications.
 
 <br>
