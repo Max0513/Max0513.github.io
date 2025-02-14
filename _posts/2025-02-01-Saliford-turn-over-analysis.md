@@ -263,6 +263,7 @@ The ML model also points to satisfaction levels as the first concern regarding p
 <br>
 
 >Investigate the three outlier departments, looking for a patern that could had to the story.
+
 Segmenting the data by department and running a statistical analysis on dimensions such as average_montly_hours, staisfaction_levels or promotion_last_5_years might help figure out missing pieces of the puzzle.
 
 <br>
