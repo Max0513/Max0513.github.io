@@ -228,7 +228,7 @@ The chosen model is the `Tree based machine learning model`.
 
 ## Model results <a name="overview-results"></a>
 
-In a tree based model, gini impurity more or less refers to the probability of misclassifying an observation.
+In a tree based model, gini impurity represents to the probability of misclassifying an observation. From it, we can calculate a metrics known as gini importance more or less refers to the impact of the feature in the final classification of the model.
 
 <br>
 
