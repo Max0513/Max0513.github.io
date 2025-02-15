@@ -311,7 +311,7 @@ ___
 > Investigate for access to higher quality data.
 
 - Year since promotion would be better than promotion in last 5 years.
-- distinction between layoff and resignation in the left dimension would lead to cleaner insights.
+- distinction between layoff and resignation in the outcome variable would lead to cleaner insights.
 - age is a relevant dimension that could had value to the analysis.
 - distance from home could had valuable insights to the data and to the model.
 - salary column could have a higher level of detail for more control, there is no way to know what a 'High' salary is currently.
@@ -320,7 +320,7 @@ ___
 
 >Investigate the three outlier departments, looking for a patern that could had to the story.
 
-Segmenting the data by department and running a statistical analysis on dimensions such as average_montly_hours, staisfaction_levels or promotion_last_5_years might help figure out missing pieces of the puzzle.
+Segmenting the data by department and running a statistical analysis on metrics such as average_montly_hours, staisfaction_levels or promotion_last_5_years might help figure out missing pieces of the puzzle.
 
 <br>
 
