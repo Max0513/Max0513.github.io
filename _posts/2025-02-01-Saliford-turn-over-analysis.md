@@ -86,33 +86,33 @@ Full GitHub Repository: [Github link](https://github.com/Max0513/Turn-over-analy
 
 ## Executive Summary of EDA  <a name="overview-eda"></a>
 
-> Satisfaction is the greater influencer in the outcome variable.
+Satisfaction is the greater influencer in the outcome variable.
 
-Data analysis revealed -0.35 correlation score with the outcome variable. Satisfaction_levels is also leading by a wide margin in the gini importance metric of the model.
-
-<br>
-
-> High work hours (Above 220 hours a month) increase the risk of departure.
+- Data analysis revealed -0.35 correlation score with the outcome variable. Satisfaction_levels is also leading by a wide margin in the gini importance metric of the model.
 
 <br>
 
-> The promotion system of *Saliford* might contribute to higher turnover.
-
-98.3% of workers did not receive a promotion in the last 5 years, which increased the probability of leaving from 4% to 17% in the historical data.
+High work hours (Above 220 hours a month) increase the risk of departure.
 
 <br>
 
-> 3 to 5 project count looks to be ideal for retention.
+The promotion system of *Saliford* might contribute to higher turnover.
 
-45% of employees that took on 6 projects left the company with 100% when taking 7 projects. The requiered time spent on the job looks to be the leading cause.  
+- 98.3% of workers did not receive a promotion in the last 5 years, which increased the probability of leaving from 4% to 17% in the historical data.
 
 <br>
 
-> Years 4 and 5 since hire need further investigation over the satisfaction level decrease in the work force.
+3 to 5 project count looks to be ideal for retention.
 
-Satisfaction levels are steadily decreasing through year 4 up to a staggering minimum average of 14% for departed employees. 
+- 45% of employees that took on 6 projects left the company with 100% when taking 7 projects. The requiered time spent on the job looks to be the leading cause.  
 
-Retained employees tell a different story, reaching a minimum average of 48% at year 5 and then rising back 
+<br>
+
+Years 4 and 5 since hire need further investigation over the satisfaction level decrease in the work force.
+
+- Satisfaction levels are steadily decreasing through year 4 up to a staggering minimum average of 14% for departed employees. 
+
+- Retained employees tell a different story, reaching a minimum average of 48% at year 5 and then rising back 
 
 <br>
 
