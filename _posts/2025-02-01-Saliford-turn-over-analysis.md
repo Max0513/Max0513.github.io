@@ -131,7 +131,7 @@ Data exploration revealed valuable insights about Saliford's work force:
 
  
   
-![alt text](/img/posts/distribution_of_monthly_hours_average.png) 
+![alt text](/img/posts/distribution_of_monthly_hours_average.png){ width="800" height="600" style="display: block; margin: 0 auto" }
 
 <br>
 
