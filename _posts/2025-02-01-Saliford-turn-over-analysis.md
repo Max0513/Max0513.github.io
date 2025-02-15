@@ -41,8 +41,21 @@ A Tree Based Classification model with an f1 accuracy score of about 94% was the
 
 Full GitHub Repository: [Github link](https://github.com/Max0513/Turn-over-analysis---Saliford-)
 
+<br>
 
 ## Data  <a name="overview-data"></a>
+
+<br>
+
+The data contained 14999 entries of which 3008 rows where duplicates. Most ouliers present were found in the year_spent_company column (6.87% of values). 
+
+Most relevant correlations found were between *number_project and average_montly_hours* and between *satisfaction_level and left*.
+
+16.6% of data is categorised as *left* so the dataset is moderatly imbalanced.
+
+EDA revealed no clear non-sensical data present.
+
+<br>
 
 **satisfaction_level (int)** : Self-reported satisfaction of employee
 
