@@ -90,17 +90,23 @@ Full GitHub Repository: [Github link](https://github.com/Max0513/Turn-over-analy
 
 Data analysis revealed -0.35 correlation score with the outcome variable. Satisfaction_levels is also leading by a wide margin in the gini importance metric of the model.
 
+<br>
+
 > High work hours (Above 220 hours a month) increase the risk of departure.
 
-
+<br>
 
 > The promotion system of *Saliford* might contribute to higher turnover.
 
 98.3% of workers did not receive a promotion in the last 5 years, which increased the probability of leaving from 4% to 17% in the historical data.
 
+<br>
+
 > 3 to 5 project count looks to be ideal for retention.
 
 45% of employees that took on 6 projects left the company with 100% when taking 7 projects. The requiered time spent on the job looks to be the leading cause.  
+
+<br>
 
 > Years 4 and 5 since hire need further investigation over the satisfaction level decrease in the work force.
 
