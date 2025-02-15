@@ -86,11 +86,27 @@ Full GitHub Repository: [Github link](https://github.com/Max0513/Turn-over-analy
 
 ## Executive Summary of EDA  <a name="overview-eda"></a>
 
-- Satisfaction is the greater influencer in the outcome variable.
-- High work hours (Above 220 hours a month) increase the risk of departure.
-- The promotion system of *Saliford* might contribute to higher turnover.
-- 3 to 5 project count looks to be ideal for retention.
-- Years 4 and 5 need further investigation over the satisfaction level decrease in the work force.
+> Satisfaction is the greater influencer in the outcome variable.
+
+Data analysis revealed -0.35 correlation score with the outcome variable. Satisfaction_levels is also leading by a wide margin in the gini importance metric of the model.
+
+> High work hours (Above 220 hours a month) increase the risk of departure.
+
+
+
+> The promotion system of *Saliford* might contribute to higher turnover.
+
+98.3% of workers did not receive a promotion in the last 5 years, which increased the probability of leaving from 4% to 17% in the historical data.
+
+> 3 to 5 project count looks to be ideal for retention.
+
+45% of employees that took on 6 projects left the company with 100% when taking 7 projects. The requiered time spent on the job looks to be the leading cause.  
+
+> Years 4 and 5 since hire need further investigation over the satisfaction level decrease in the work force.
+
+Satisfaction levels are steadily decreasing through year 4 up to a staggering minimum average of 14% for departed employees. 
+
+Retained employees tell a different story, reaching a minimum average of 48% at year 5 and then rising back 
 
 <br>
 
@@ -120,7 +136,7 @@ Data exploration revealed valuable insights about Saliford's work force:
 
 >Insight 1 : Burn out looks to be a significant factor in departures
 
-- Employees working outside of the `160 to 220 hours a month` range are at much higher risk of turnover, the average in the US being 176 hours. A recommended maximum for monthly hours could be set to 220 hours to help this issue.
+- Employees working outside of the `160 to 230 hours a month` range are at much higher risk of turnover, the average in the US being 176 hours. A recommended maximum for monthly hours could be set to 220 hours to help this issue.
 
 - 100% of workers assigned **7 projects** left the company, dropping to 45% when assigned 6.
 
@@ -152,11 +168,11 @@ Data exploration revealed valuable insights about Saliford's work force:
 
 | **Project Number** | **Count_of_departure** | **Percent_of_departure** |
 |---|---|---|
+| 2 | 1582 | 54 % |
 | 3 | 3520 | 1 % |
 | 4 | 3685 | 6 % | 
 | 5 | 2233 | 15 % | 
 | 6 | 826 | 45 % | 
-| 2 | 1582 | 54 % |
 | 7 | 145 | 100 % |
 
 
