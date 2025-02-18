@@ -86,33 +86,36 @@ Full GitHub Repository: [Github link](https://github.com/Max0513/Turn-over-analy
 
 ## Executive Summary of EDA  <a name="overview-eda"></a>
 
-Satisfaction is the greater influencer in the outcome variable.
+**Satisfaction is the greater influencer in the outcome variable.**
 
-- Data analysis revealed -0.35 correlation score with the outcome variable. Satisfaction_levels is also leading by a wide margin in the gini importance metric of the model.
-
-<br>
-
-High work hours (Above 220 hours a month) increase the risk of departure.
+- Data analysis revealed -0.35 correlation score with the outcome variable. 'satisfaction_levels' is also the greatest contributer to the model's predictions.
 
 <br>
 
-The promotion system of *Saliford* might contribute to higher turnover.
+**High work hours (Above 220 hours a month) increase the risk of departure.**
 
-- 98.3% of workers did not receive a promotion in the last 5 years, which increased the probability of leaving from 4% to 17% in the historical data.
+- 52% of turnovers occur over an average of 220 hours a month.
 
 <br>
 
-3 to 5 project count looks to be ideal for retention.
+**The promotion system of *Saliford* might contribute to higher turnover.**
+
+- 98.3% of workers did not receive a promotion in the last 5 years, which increased the probability of leaving from 4% to 17% in the analysed data.
+- Promotions seem to mostly be attributed over the average monthly hours worked. Monthly hours worked is a contributor to high turnover rates.
+
+<br>
+
+**3 to 5 project count looks to be ideal for retention.**
 
 - 45% of employees that took on 6 projects left the company with 100% when taking 7 projects. The requiered time spent on the job looks to be the leading cause.  
 
 <br>
 
-Years 4 and 5 since hire need further investigation over the satisfaction level decrease in the work force.
+**Years 4 and 5 since hire need further investigation over a massive drop in satisfaction level which seems a large predictor of leave**
 
-- Satisfaction levels are steadily decreasing through year 4 up to a staggering minimum average of 14% for departed employees. 
+- Satisfaction levels are steadily decreasing through year 4, down to an average of 14% of satisfaction in the departed employees category. 
 
-- Retained employees tell a different story, reaching a minimum average of 48% at year 5 and then rising back 
+- Retained employees tell a different story, reaching a minimum average of 48% at year 5 and then rising back up.
 
 <br>
 
@@ -120,7 +123,13 @@ Years 4 and 5 since hire need further investigation over the satisfaction level 
 
 ___
 
-# Insight Deep Dive   <a name="overview-executive"></a>
+# Insight Deep Dive   <a name="overview-dive"></a>
+
+<br>
+
+[ - Link to EDA Notebook - ](https://github.com/Max0513/Turn-over-analysis---Saliford-/blob/main/Notebooks/data_cleanup.ipynb)
+
+<br>
 
 Data exploration revealed valuable insights about Saliford's work force:
 
