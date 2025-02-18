@@ -107,7 +107,8 @@ Full GitHub Repository: [Github link](https://github.com/Max0513/Turn-over-analy
 
 **3 to 5 project count looks to be ideal for retention.**
 
-- 45% of employees that took on 6 projects left the company with 100% when taking 7 projects. The requiered time spent on the job looks to be the leading cause.  
+- 45% of employees that took on 6 projects left the company going up to 100% when taking on 7 projects.
+- The requiered time spent on the job looks to be the cause, rather than the count of project itself.  
 
 <br>
 
