@@ -334,11 +334,6 @@ Segmenting the data by department and running a statistical analysis on metrics 
 
 <br>
 
-> Generate dashboards for management to better track important metrics.
-
-- Machine learning models can be a great tool, but it is an imperfect tool. Management must be equipped with good data visualisation tools to add human insight which is as much if not more valuable to solving business problems.
-
-<br>
 
 <br>
 
