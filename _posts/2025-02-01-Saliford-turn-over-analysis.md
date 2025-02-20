@@ -71,7 +71,7 @@ Full GitHub Repository: [Github link](https://github.com/Max0513/Turn-over-analy
 
 <br>
 
-**satisfaction_level (int)** : Self-reported satisfaction of employee
+**satisfaction_level (int64)** : Self-reported satisfaction of employee
 
 **last_evaluation (int64)** : Score of employee's last performance review
 
