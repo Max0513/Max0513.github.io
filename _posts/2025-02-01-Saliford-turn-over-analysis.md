@@ -9,6 +9,7 @@ Saliford Motors has noticed a high turnover rate from their work force. They ask
 
 - [00. Project summary](#overview-summary)
     - [Context](#overview-context)
+    - [Action](#overview-action)
     - [Data](#overview-data)
     - [Executive Summary of EDA](#overview-eda)
 - [01. Insight Deep Dive](#overview-dive)
@@ -30,11 +31,19 @@ ___
 
 <br>
 
-Saliford Motors has noticed a high turnover rate from their work force. They ask for a machine learning algorithm [ML] that would help them screen for possible departures in their work force based on data they collected from their employees, past and present. If succesful, the ML model could give Saliford an opportunity for action in preventing the departure before it takes place. 
+Saliford Motors, a global-wide car manifacturer of over 100 000 employees, distributed along multiple departments is looking for help regarding the results of a recent employee survey.
 
-An initial EDA using `python` revealed key insights as to where company leadership could further investigate to hopefully reveal the exact causes of departure.
+Currently, there is a high rate of turnover among Salifort employees. (Note: In this context, turnover data includes both employees who choose to quit their job and employees who are let go). Salifort’s senior leadership team is concerned about how many employees are leaving the company. Salifort strives to create a corporate culture that supports employee success and professional development. Further, the high turnover rate is costly in the financial sense. Salifort makes a big investment in recruiting, training, and upskilling its employees. 
 
-A Tree Based Classification model with an f1 accuracy score of about 94% was then computed to help screen employees for potential risk of leaving Saliford, based on different metrics collected by the company.
+Senior leadership suggests the design of a machine learning algorithm [ML] that would help them screen for possible departures based on data they collected from their employees, past and present. If succesful, the ML model could give Saliford an opportunity for action in preventing the departure before it even takes place. 
+
+## Action  <a name="overview-action"></a>
+
+<br>
+
+To begin with, an initial EDA using `python` revealed key insights as to where company leadership could focus their attention to hopefully reveal the exact causes of the high turnovers that affects Saliford's culture and finances.
+
+A Tree Based Classification model with an f1 accuracy score of about 94% was then computed to help screen employees for potential risk of leaving Saliford, based on different data collected in the company survey. The model also strengthened intuitions that where guided by the EDA over the key metrics that predict departures.
 
 <br>
 
@@ -68,7 +77,7 @@ Full GitHub Repository: [Github link](https://github.com/Max0513/Turn-over-analy
 
 **number_project (int64)** : Number of projects contributed in the last year
 
-**average_montly_hours (int64)** : Average hours worked by month in the last year
+**average_montly_hours (int64)** : Average worked hours per month in the last year
 
 **time_spent_company (int64)** : Number of years employee has been working at Saliford Motors
 
@@ -94,29 +103,29 @@ Full GitHub Repository: [Github link](https://github.com/Max0513/Turn-over-analy
 
 **High work hours (Above 220 hours a month) increase the risk of departure.**
 
-- 52% of turnovers occur over an average of 220 hours a month.
+- 52% of turnovers occur over an average of 220 hours per month.
 
 <br>
 
 **The promotion system of *Saliford* might contribute to higher turnover.**
 
 - 98.3% of workers did not receive a promotion in the last 5 years, which increased the probability of leaving from 4% to 17% in the analysed data.
-- Promotions seem to mostly be attributed over the average monthly hours worked. Monthly hours worked is a contributor to high turnover rates.
+- Promotions seem to mostly be attributed over the average monthly hours worked. Monthly hours worked are a contributor to high turnover rates.
 
 <br>
 
 **3 to 5 project count looks to be ideal for retention.**
 
-- 45% of employees that took on 6 projects left the company going up to 100% when taking on 7 projects.
-- The requiered time spent on the job looks to be the cause, rather than the count of project itself.  
+- 45% of employees who took on 6 projects left the company going up to 100% when taking on 7 projects.
+- The requiered time spent on the job seems to be the cause, rather than the count of project itself.  
 
 <br>
 
-**Years 4 and 5 since hire need further investigation over a massive drop in satisfaction level which seems a large predictor of leave**
+**Years 4 and 5 since hired need further investigation over a massive drop in satisfaction level which seems a large predictor variable of leave**
 
 - Satisfaction levels are steadily decreasing through year 4, down to an average of 14% of satisfaction in the departed employees category. 
 
-- Retained employees tell a different story, reaching a minimum average of 48% at year 5 and then rising back up.
+- Retained employees tell a different story, decreasing to a minimum average of 48% at year 5 and then rising back up.
 
 <br>
 
@@ -153,7 +162,7 @@ Data exploration revealed valuable insights about Saliford's work force:
 
 >Insight 1 : Burn out looks to be a significant factor in departures
 
-- Employees working outside of the `160 to 230 hours a month` range are at much higher risk of turnover, the average in the US being 176 hours. A recommended maximum for monthly hours could be set to 220 hours to help this issue.
+- Employees working outside of `160 to 230 hours a month` are at much higher risk of turnover, the average in the US being 176 hours. A recommended maximum for monthly hours could be set to 220 hours to help this issue.
 
 - 100% of workers assigned **7 projects** left the company, dropping to 45% when assigned 6.
 
@@ -175,7 +184,7 @@ Data exploration revealed valuable insights about Saliford's work force:
 >Insight 3 : The promotions system does not look ideal for retention.
 
 - **98.3%** of workers `did not receive a promotion` in the last 5 years.
-- Around `17% of employees who did not receive a promotion in the last 5 years departed`, dropping to 4% if they did.
+- Approximatively `17% of employees who did not receive a promotion in the last 5 years departed`, dropping to 4% if they did.
 - Implementing a structure with more echelon could add a sense of progression in the work force wich might boost moral and lead to lower turnover.
 - The `number of promotions` do not appear related to the **number of hours worked**, **the number of project participated in** nor to the **last evaluation of the worker**. They do however, appear to be correlated to their **satisfaction levels**. 
 
@@ -194,7 +203,7 @@ Data exploration revealed valuable insights about Saliford's work force:
 
 
 
-It is worth noting that as stated before, the **time spent working on project** seems a more likely indicator than the **number of project**. It is a fact however, that a higher project count tends to lead to a greater time spent on those projects.
+It is worth noticing that as stated before, the **time spent working on project** seems a more likely indicator than the **number of project**. It is a fact however, that a higher project count tends to lead to a greater time spent on those projects.
 
 
 <br>
@@ -282,8 +291,8 @@ The chosen model is the `Tree based machine learning model`.
 
 ![alt text](/img/posts/confusion_matrix.png)
 
-- `Yellow` top/left box shows retained employees that where **correctly predicted** as such.
-- `Light Purple` bottom/right box shows departed employees that were **correctly identified**.
+- `Yellow` top/left box shows retained employees who where **correctly predicted** as such.
+- `Light Purple` bottom/right box shows departed employees who were **correctly identified**.
 - `Bright Purple` Boxes show **incorrectly identified** data. 
 
 <br>
