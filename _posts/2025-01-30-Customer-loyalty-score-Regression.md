@@ -5,7 +5,7 @@ image: "../img/abc_groc/linear_regression.avif"
 tags: [Customer Loyalty, Machine Learning, Regression, Python]
 ---
 
-Our client, a grocery retailer, hired a market research consultancy to append market level customer loyalty information to the database.  However, only around 50% of the client's customer base could be tagged, thus the other half did not have this information present.  Let's use ML to solve this!
+In this project, we use regression learning to to append the missing market level customer loyalty information to the database.
 
 # Table of contents
 
