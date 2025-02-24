@@ -5,7 +5,7 @@ image: "../img/posts/distribution_of_monthly_hours_average.png"
 tags: [Python, EDA, Machine learning]
 ---
 
-Saliford Motors has noticed a high turnover rate from their work force. They ask for a machine learning algorithm that would help them screen for possible departures in their work force based on data they collected from past employees.
+In this project, we analyse survey data to gather insights regarding the high emnployee turnover rate at Saliford Motors. We than construct a ML model to predict who is at risk of leaving.
 
 - [00. Project summary](#overview-summary)
     - [Context](#overview-context)
